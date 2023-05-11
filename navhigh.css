@@ -1,0 +1,55 @@
+#mercury:hover {
+    background-color: #A370FF;
+    color: black;
+    box-shadow: 0 0 10px 5px #A370FF,
+        0 0 20px 7px #ebecca;
+}
+
+#venus:hover {
+    background-color: #F2BF0C;
+    box-shadow: 0 0 10px 5px #F2BF0C,
+        0 0 20px 7px #ebecca;
+    color: black;
+}
+
+#earth:hover {
+    background-color: #0D98BA;
+    box-shadow: 0 0 10px 5px #0D98BA,
+        0 0 20px 7px #ebecca;
+    color: black;
+}
+
+#mars:hover {
+    background-color: #FF5733;
+    box-shadow: 0 0 10px 5px #FF5733,
+        0 0 20px 7px #ebecca;
+    color: black;
+}
+
+#jupiter:hover {
+    background-color: wheat;
+    box-shadow: 0 0 10px 5px cadetblue,
+        0 0 20px 7px #ebecca;
+    color: black;
+}
+
+#saturn:hover {
+    background-color: #ad9051;
+    box-shadow: 0 0 10px 5px #ad9051,
+        0 0 20px 7px #ebecca;
+    color: black;
+}
+
+#uranus:hover {
+    background-color: rgb(99, 17, 177);
+    box-shadow: 0 0 10px 5px rgb(99, 17, 177),
+        0 0 20px 7px #ebecca;
+    color: white;
+}
+
+#neptune:hover {
+    background-color: skyblue;
+    box-shadow: 0 0 10px 5px skyblue,
+        0 0 20px 7px #ebecca;
+    color: black;
+}

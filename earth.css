@@ -1,0 +1,142 @@
+body {
+    background-color: #01041c;
+    background-image: url("./asset/background-stars.svg");
+}
+
+#navb li {
+    display: inline;
+    margin: 2px 13px;
+}
+
+#navb {
+    float: right;
+    margin-block-start: -60px;
+}
+
+#navb:hover {
+    box-shadow: 0 0 10px 5px #48abe0,
+        0 0 20px 7px #ebecca,
+        0 0 25px 20px #8a2be2,
+        0 0 30px 25px #ff1493;
+}
+
+#navb li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Trispace', sans-serif;
+    font-size: 13px;
+}
+
+
+#hetitle {
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+}
+
+
+#thehead {
+    border-bottom: 1px solid white;
+}
+
+#earth-image-main {
+    margin-left: 7cm;
+    margin-top: 3cm;
+    width: 9cm;
+}
+
+#desc {
+    float: right;
+    color: white;
+    width: 30%;
+
+    margin-block-start: -8cm;
+    margin-right: 9cm;
+}
+
+#solink {
+    color: #0D98BA;
+}
+
+.ss:hover {
+    text-transform: uppercase;
+}
+
+.sd {
+    float: right;
+    color: white;
+    width: 17%;
+    border: 0.1px solid;
+    border-color: rgb(148, 146, 146);
+    margin-block-start: -2cm;
+    margin-right: 14cm;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 2px;
+}
+
+.sd:hover {
+    background-color: #0D98BA;
+    border-color: transparent;
+}
+
+#sf {
+    list-style-type: none;
+    font-size: 15px;
+    font-family: 'Trispace', sans-serif;
+}
+
+.bx {
+    border: 0.1px solid;
+    border-color: grey;
+}
+
+.bx h1 {
+    color: grey;
+    font-size: 14px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-decoration: underline;
+}
+
+.bx p {
+    margin-top: 0;
+    color: white;
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#se {
+    list-style-type: none;
+}
+
+#se li {
+    margin-left: 80px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.bx {
+    height: 80px;
+    width: 200px
+}
+
+
+.inner {
+    display: none;
+    margin-left: 7cm;
+    margin-top: 3cm;
+
+}
+
+.internal:hover .inner {
+    display: block;
+    width: 2cm;
+}
+
+.internal:hover .earth {
+    display: none;
+}

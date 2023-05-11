@@ -1,0 +1,136 @@
+body {
+    background-color: #01041c;
+    background-image: url("./asset/background-stars.svg");
+    padding-bottom: 3em;
+}
+
+#navb li {
+    display: inline;
+    margin: 2px 13px;
+}
+
+#navb {
+    float: right;
+    margin-block-start: -60px;
+}
+
+#navb:hover {
+    box-shadow: 0 0 10px 5px #48abe0,
+        0 0 20px 7px #ebecca,
+        0 0 25px 20px #8a2be2,
+        0 0 30px 25px #ff1493;
+}
+
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    text-decoration: underline;
+}
+
+#navb li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Trispace', sans-serif;
+    font-size: 13px;
+}
+
+#hetitle {
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+}
+
+#thehead {
+    border-bottom: 1px solid white;
+}
+
+#mars-image-main {
+    margin-left: 5cm;
+    margin-top: 3.5cm;
+    width: 25%;
+}
+
+#desc {
+    float: right;
+    color: white;
+    width: 30%;
+
+    font-size: 1.1em;
+
+    margin-block-start: -9.5cm;
+    margin-right: 9cm;
+}
+
+#para {
+    font-family: 'Trispace', sans-serif;
+}
+
+#solink {
+    color: #A370FF;
+}
+
+#sopar {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+}
+
+#arbox {}
+
+#view-list {
+    float: right;
+    color: white;
+    margin-block-start: -2cm;
+    margin-right: 15.2cm;
+}
+
+#viewtable {
+    font-family: 'Trispace', sans-serif;
+    font-size: 11px;
+    border-spacing: 1em;
+}
+
+tr {
+    color: lightcyan;
+    font-size: 1.4em;
+}
+
+tr:hover {
+    background-color: #804fb0;
+}
+
+td {
+    border: 2px solid white;
+    padding: 14px;
+    cursor: pointer;
+}
+
+#factlist {
+    margin-block-start: 7cm;
+    margin-right: 0cm;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#factl li {
+    color: white;
+    display: inline;
+    width: 30%;
+}
+
+#factl {
+    text-decoration: none;
+    padding: 1cm;
+    display: inline;
+}
+
+
+.ext1 {
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    padding: 2em;
+    border: 2px solid white;
+    width: 12%;
+    font-size: 0.8em;
+    margin-right: 7em;
+}
